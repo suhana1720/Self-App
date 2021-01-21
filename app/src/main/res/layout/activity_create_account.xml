@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity">
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/account_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:paddingBottom="16dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/email_text"
+            android:layout_width="match_parent"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:hint="@string/user_email"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/password_text"
+            android:paddingTop="16dp"
+            android:hint="@string/user_password"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/account"
+            android:text="@string/create_account"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

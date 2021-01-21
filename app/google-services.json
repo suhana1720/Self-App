@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "484373778423",
+    "firebase_url": "https://self-d09ba.firebaseio.com",
+    "project_id": "self-d09ba",
+    "storage_bucket": "self-d09ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484373778423:android:5acb0d6441891c3318e8f2",
+        "android_client_info": {
+          "package_name": "com.gohool.self"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484373778423-igfm0tk1n6g70rhnglmpa11lovosod7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXUja4YgK8P5EsNrVWIov3Vg6zZBrXOxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484373778423-igfm0tk1n6g70rhnglmpa11lovosod7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

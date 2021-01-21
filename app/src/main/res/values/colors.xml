@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/endColor</color>
+    <color name="colorPrimaryDark">@color/endColor</color>
+    <color name="colorAccent">@color/endColor</color>
+    <color name="yelloBg">#FFDE03</color>
+    <color name="startColor">#F44336</color>
+    <color name="centerColor">#09F43636</color>
+    <color name="endColor">#009688</color>
+</resources>
